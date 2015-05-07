@@ -1,6 +1,7 @@
-import std.stdio;
+import quetzal.framework;
 
-void main()
+int main(string[] args) 
 {
-	writeln("Edit source/app.d to start your project.");
+    Server.start("handler");
+	return 0;
 }
